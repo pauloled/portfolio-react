@@ -1,16 +1,24 @@
 import React from 'react';
+import './Header.css';
 
-const Header = () => {
+function Header() {
   return (
-    <header>
-      <h1>Mi Portafolio</h1>
-      <nav>
-        <a href="#estudios">Estudios</a> | 
-        <a href="#skills">Habilidades</a> | 
-        <a href="#contacto">Contacto</a>
-      </nav>
+    <header className="header">
+      <div className="header-container">
+        <div className="photo-container">
+          <img 
+            src="/assets/images/Mi-foto.jpg" 
+            alt="Foto de perfil" 
+            className="profile-photo" 
+          />
+        </div>
+        <div className="text-container">
+          <h1 className="name">Paulo Ledesma</h1>
+          <p className="role">Estudiante de Programación</p>
+        </div>
+      </div>
     </header>
   );
-};
+}
 
 export default Header;
