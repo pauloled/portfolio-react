@@ -3,7 +3,7 @@
     justify-content: center;
     align-items: center;
     padding: 20px;
-    background-color: #f4f4f4; /* Puedes cambiar el color de fondo */
+    background-color: #d8d8d0; /* Puedes cambiar el color de fondo */
   }
   
   .header-container {
@@ -13,8 +13,8 @@
   }
   
   .photo-container {
-    width: 120px;  /* Tamaño de la foto */
-    height: 120px;
+    width: 150px;  /* Tamaño de la foto */
+    height: 150px;
     border-radius: 50%;
     overflow: hidden;
     display: flex;
@@ -23,9 +23,11 @@
   }
   
   .profile-photo {
-    width: 100%;
-    height: 100%;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
     object-fit: cover;
+    border: 3px solid #396f8a;
   }
   
   .text-container {
@@ -36,13 +38,13 @@
   
   .name {
     font-size: 24px;
-    font-weight: 600;
+    font-weight: 900;
     margin: 0;
   }
   
   .role {
     font-size: 18px;
-    font-weight: 300;
+    font-weight: 500;
     margin-top: 5px;
   }
   

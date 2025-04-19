@@ -1,0 +1,28 @@
+.idiomas-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 10px;
+  }
+  
+  .idioma-card {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+    width: 220px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .idioma-card h3 {
+    margin-bottom: 5px;
+    font-size: 18px;
+  }
+  
+  .idioma-card p {
+    font-size: 14px;
+    color: #555;
+  }
+  

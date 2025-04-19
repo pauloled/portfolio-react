@@ -7,7 +7,7 @@ function Header() {
       <div className="header-container">
         <div className="photo-container">
           <img 
-            src="/assets/images/Mi-foto.jpg" 
+            src="/assets/images/Mi_foto.jpg" 
             alt="Foto de perfil" 
             className="profile-photo" 
           />
