@@ -12,7 +12,7 @@ const softSkills = [
 const SoftSkills = () => {
   return (
     <section id="skills" className="section">
-      <h2>Habilidades Blandas</h2>
+      <h2>Habilidades</h2>
       <div className="skills-container">
         {softSkills.map((skill, index) => (
           <div className="skill-card" key={index}>

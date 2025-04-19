@@ -1,0 +1,15 @@
+.main {
+    background-color: #c7c7bd;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .main-container {
+    width: 100%;
+    max-width: 1000px; /* Mismo ancho máximo que el Header */
+    margin: 0 auto; /* Centra el contenido en la página */
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  

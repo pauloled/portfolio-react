@@ -26,6 +26,25 @@
   }
   
   .footer-item a:hover {
-    color: #ff6600;
+    color: #396f8a;
+  }
+
+  .footer-links {
+    margin-top: 10px;         /* separa los enlaces del resto del contenido */
+    display: flex;
+    flex-direction: column;   /* coloca cada enlace uno debajo del otro */
+    align-items: center;
+  }
+  
+  .footer-links a {
+    display: block;           /* cada enlace ocupa su propia línea */
+    margin: 5px 0;            /* espacio vertical entre enlaces */
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .footer-links a:hover {
+    color: #396f8a;
   }
   

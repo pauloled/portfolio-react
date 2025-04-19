@@ -5,13 +5,13 @@ const experiencias = [
   {
     puesto: 'Prácticas Freelance - Desarrollo Web',
     empresa: 'Proyectos personales y familiares',
-    fecha: '2023 - Presente'
+    fecha: '2024 - Presente'
   },
   {
-    puesto: 'Asistente Técnico',
-    empresa: 'Estudio de Arquitectura',
-    fecha: '2019 - 2021'
-  }
+    puesto: 'Prácticas Freelance - Diseño Gráfico',
+    empresa: 'Proyectos personales y familiares',
+    fecha: '2021 - Presente'
+  },
 ];
 
 const Experiencia = () => {

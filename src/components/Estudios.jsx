@@ -8,6 +8,11 @@ const estudiosData = [
     duracion: '2011 - 2018',
   },
   {
+    titulo: 'Diplomado en Inglés',
+    institucion: 'Fundación ILADES',
+    duracion: '2020 - 2021',
+  },
+  {
     titulo: 'Tecnicatura Universitaria en Programación (2º Año)',
     institucion: 'Universidad Tecnológica Nacional',
     duracion: '2024 - Actual',

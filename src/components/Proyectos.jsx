@@ -8,9 +8,8 @@ const proyectos = [
     enlace: 'https://github.com/pauloled/portfolio-react'
   },
   {
-    nombre: 'Sistema de Gestión de Tareas',
-    descripcion: 'Aplicación CRUD con Node.js y MongoDB.',
-    enlace: 'https://github.com/pauloled/todo-app'
+    nombre: 'Sistema de Gestión de Estacionamiento',
+    descripcion: 'Desarrollado con Javascript. Incluye control de precio por tipo de vehiculo y por tiempo, y control de identidad por patente.',
   }
 ];
 

@@ -1,6 +1,9 @@
 import React from 'react';
 import './Header.css';
 
+// Nombre completo: Paulo Marcelo Ledesma
+// Legajo: 61035
+
 function Header() {
   return (
     <header className="header">
