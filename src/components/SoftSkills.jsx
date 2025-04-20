@@ -1,5 +1,5 @@
 import React from 'react';
-import './SoftSkills.css';
+import '../styles/SoftSkills.css';
 
 const softSkills = [
   'Trabajo en equipo',

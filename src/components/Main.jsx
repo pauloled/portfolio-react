@@ -4,7 +4,7 @@ import SoftSkills from './SoftSkills';
 import Idiomas from './Idiomas';
 import Experiencia from './Experiencia';
 import Proyectos from './Proyectos';
-import './Main.css';
+import '../styles/Main.css';
 
 function Main() {
   return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import './Estudios.css';
+import '../styles/Estudios.css';
 
 const estudiosData = [
   {

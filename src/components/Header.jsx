@@ -1,5 +1,5 @@
 import React from 'react';
-import './Header.css';
+import '../styles/Header.css';
 
 // Nombre completo: Paulo Marcelo Ledesma
 // Legajo: 61035

@@ -1,5 +1,5 @@
 import React from 'react';
-import './Idiomas.css';
+import '../styles/Idiomas.css';
 
 const idiomas = [
   { idioma: 'Español', nivel: 'Nativo' },
