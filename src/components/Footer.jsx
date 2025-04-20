@@ -10,7 +10,7 @@ const Footer = () => {
         
         {/* Agregar enlaces de LinkedIn y GitHub */}
         <div className="footer-links">
-          <a href="https://www.linkedin.com/in/pauloledesma" className="footer-link" target="_blank" rel="noopener noreferrer">
+          <a href="https://linkedin.com/in/paulo-ledesma-b81466361" className="footer-link" target="_blank" rel="noopener noreferrer">
             LinkedIn
           </a>
           <a href="https://github.com/pauloled" className="footer-link" target="_blank" rel="noopener noreferrer">

@@ -14,8 +14,8 @@
   }
   
   .photo-container {
-    width: 160px;  /* Tamaño de la foto */
-    height: 160px;
+    width: 180px;  /* Tamaño de la foto */
+    height: 180px;
     border-radius: 50%;
     overflow: hidden;
     display: flex;
@@ -24,11 +24,16 @@
   }
   
   .profile-photo {
-    width: 140px;
-    height: 140px;
+    width: 160px;
+    height: 160px;
     border-radius: 50%;
     object-fit: cover;
     border: 3px solid #396f8a;
+    transition: transform 0.3s ease-in-out; /* 🔸 Suaviza la animación */
+  }
+  
+  .profile-photo:hover {
+    transform: scale(1.1); /* 🔍 Hace un pequeño zoom */
   }
   
   .text-container {
@@ -39,13 +44,15 @@
   
   .name {
     font-size: 24px;
-    font-weight: 1300;
+    font-weight: 1600;
     margin: 0;
+    color: #e0e0e0;
   }
   
   .role {
     font-size: 18px;
-    font-weight: 700;
+    font-weight: 1000;
     margin-top: 5px;
+    color: #e0e0e0;
   }
   
